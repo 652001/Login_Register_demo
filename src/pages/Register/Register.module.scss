@@ -1,0 +1,14 @@
+@import "../Login/Login.module.scss";
+
+.login {
+    font-size: 1.3em;
+    text-align: center;
+    padding: 1em 0 2em;
+    .login-link {
+        color: #000;
+        &:hover {
+            color: #ddd;
+            box-shadow: inset 0px -3px 0px 0px rgba(#ddd, 0.2);
+        }
+    }
+}
